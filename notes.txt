@@ -1,0 +1,33 @@
+
+#######################################
+## setting virtual env --
+
+$ pip install virtualenv
+$ cd <project_folder>
+$ virtualenv venv
+
+# or create venv folders in the current directory
+$ virtualenv .
+
+
+
+# To begin using the virtual environment, it needs to be activated:
+
+$ source venv/bin/activate
+
+
+
+
+
+
+########################################
+## running unittest --
+
+# run from project root dir
+# eg.
+
+$ python -m test.test_bath
+
+# slightly more verbose output
+#
+$ python -m test.test_bath -v
