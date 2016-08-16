@@ -1,2 +1,2 @@
 # run_a_bath
-small app to demonstrate running a bath
+A test app to demonstrate running a bath.
